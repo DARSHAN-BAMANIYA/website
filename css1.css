@@ -1,0 +1,111 @@
+<style type="text/css">
+   *p{
+      text-align: right;
+   }
+#content{
+   display: inline-flex;
+}
+#flex{
+    display: flex;
+}
+.product-image {
+        display: block;
+        margin-right: 120px ;
+
+       
+    }
+    #black{
+        display: none;
+       
+        width: 600px;
+        height: 600px;
+    }
+    .b1{
+        margin-top: 20px;
+        display: inline-flex;
+
+        
+    }
+    
+.b1 button:hover{
+ background-color:#161617;
+}
+.b1 button{
+         padding: 10px 20px;
+        background-color:#86868b;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: 1px;
+
+    }
+
+  .box {
+        background-color: ;
+        padding: 30px;
+        margin: 40px auto;
+        width: 350px ;
+        height:  auto;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        color: purple;
+    }
+
+    .fps-data h3, .specs-data h3 {
+        color: purple;
+        margin-bottom: 15px;
+        text-align: center;
+           
+    }
+
+    .fps-data ul, .specs-data {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+           font-family: 'Arial', sans-serif;
+                   color: #fff;
+           
+    }
+
+    .fps-data li, .specs-data li {
+        margin-bottom: 10px;
+        color: #86868b;
+    }
+
+    .fps-data li strong, .specs-data li strong {
+        color: purple;
+    }
+
+    .resolution-buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .resolution-buttons button {
+        padding: 10px 20px;
+        background-color:#86868b;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .resolution-buttons button:hover {
+        background-color:#161617;
+    }
+  
+
+
+body {
+
+  margin:0px ;
+  padding:0 px;
+}
+
+    
+</style>

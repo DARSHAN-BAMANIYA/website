@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	*p{
+		text-align: right;
+	}
+#content{
+	display: inline-flex;
+}
+#flex{
+    display: flex;
+}
+.product-image {
+        display: block;
+        margin-right: 120px ;
+
+       
+    }
+    #black{
+        display: none;
+       
+        width: 600px;
+        height: 600px;
+    }
+    .b1{
+        margin-top: 20px;
+        display: inline-flex;
+
+        
+    }
+    
+.b1 button:hover{
+ background-color:#161617;
+}
+.b1 button{
+         padding: 10px 20px;
+        background-color:#86868b;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: 1px;
+
+    }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+</style>
+<body>
+
+<div  style="top:0px; position: sticky; display: inline-flex;  ">
+    <div   style="width:1177px; background: ghostwhite;  border-radius: 0px; top: 0px; margin: 0px 0px 0px 0px; 
+padding: 20px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+color: #86868b;
+font-family: 'Arial', sans-serif;
+    ">
+<h1 style="display: inline; margin-right: 600px; padding: 0px;  color: purple;
+ font-family: 'Arial', sans-serif;">TRENDY TEACH</h1>
+<button  style="padding: 10px 20px;
+        background-color:purple;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        margin-left: 1px;
+        "  onclick="document.location='home.html ' ">Home</button>
+<button style="padding: 10px 20px;
+        background-color:purple;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        margin-left: 1px;
+        " onclick="document.location='login.php'">Login</button>
+<button style="padding: 10px 20px;
+        background-color:purple;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        margin-left: 1px;
+        " onclick="document.location='index.php'">Sign up</button>
+</div>
+</div>
+
+ <div id="content">
+ <img src="https://nzxt.com/assets/cms/34299/1709194939-player-1-base-ww-02-26-24-hero-white-badge.png?ar64=MTox&auto=format&dpr=1.5&fit=crop&h=400&w=400" id="white" class="product-image">
+    <img src="https://www.datocms-assets.com/34299/1709195431-player-1-base-ww-02-26-24-hero-black-badge.png?ixlib=js-3.8.0&w=500&h=500&dpr=2&q=50" id="black" class="product-image" >
+  <div class="box">
+        <center><h1 style="color:#161617w ;">H5 Flow Gaming PC</h1></center>
+        <h2>Specifications </h2>
+        <ul class="specs-data">
+            <li><strong>CPU:</strong> Intel® Core™ i5-11400F</li>
+            <li><strong>GPU:</strong> NVIDIA GeForce RTX 3050</li>
+            <li><strong>Memory:</strong> 16GB (2 x 8GB) DDR5 5200 MHz</li>
+            <li><strong>Motherboard:</strong> B760</li>
+            <li><strong>Storage:</strong> 1TB NVMe M.2 SSD</li>
+            <li><strong>PSU:</strong> 650W Gold</li>
+            <div class="b1">
+            <button onclick="showWhite()" >White</button>
+        <button onclick="showBlack()" >Black</button>
+        </div>
+        </ul>
+        <center class="b1">
+        <button style="background:purple;">PRICE $829.00</button>
+    </center>
+    </div>
+  </div>
+
+	
+<div id="flex">
+  
+    <div class="box">
+        <div id="fps-1080p" class="fps-data">
+    <h3>1080p Performance(Based on GPU )</h3>
+    <ul>
+        <li><strong>Cyberpunk 2077:</strong> 60 FPS (High Settings)</li>
+        <li><strong>Red Dead Redemption 2:</strong> 65 FPS (High Settings)</li>
+        <li><strong>Assassin's Creed Valhalla:</strong> 60 FPS (High Settings)</li>
+        <li><strong>Starfield:</strong> 55 FPS (High Settings)</li>
+        <li><strong>Call of Duty: Modern Warfare II:</strong> 75 FPS (High Settings)</li>
+        <li><strong>Fortnite:</strong> 90 FPS (High Settings)</li>
+        <li><strong>Shadow of the Tomb Raider:</strong> 70 FPS (High Settings)</li>
+        <li><strong>GTA V:</strong> 80 FPS (High Settings)</li>
+    </ul>
+</div>
+
+<div id="fps-1440p" class="fps-data" style="display: none;">
+    <h3>1440p Performance(Based on GPU )</h3>
+    <ul>
+        <li><strong>Cyberpunk 2077:</strong> 40 FPS (Medium Settings)</li>
+        <li><strong>Red Dead Redemption 2:</strong> 40 FPS (Medium Settings)</li>
+        <li><strong>Assassin's Creed Valhalla:</strong> 35 FPS (Medium Settings)</li>
+        <li><strong>Starfield:</strong> 30 FPS (Medium Settings)</li>
+        <li><strong>Call of Duty: Modern Warfare II:</strong> 50 FPS (Medium Settings)</li>
+        <li><strong>Fortnite:</strong> 55 FPS (Medium Settings)</li>
+        <li><strong>Shadow of the Tomb Raider:</strong> 45 FPS (Medium Settings)</li>
+        <li><strong>GTA V:</strong> 50 FPS (Medium Settings)</li>
+    </ul>
+</div>
+
+
+        <div class="resolution-buttons">
+            <button onclick="show1080p()">1080p Performance</button>
+            <button onclick="show1440p()">1440p Performance</button>
+        </div>
+    </div>
+    <div class="box">
+<ul class="specs-data">
+    <h3>About us</h3>
+    <li><strong> One</strong> is crafted by our gaming PC experts to deliver a seamless and powerful gaming experience right out of the box.</li>
+    <li><strong>Built with high-quality components</strong> it ensures smooth performance in both casual and competitive gaming, giving you a crucial edge over your opponents.</li>
+    <li><strong>Designed not just for immediate power</strong> but also for future-proofing your gaming experience.</li>
+    <li><strong>Perfect for first-time</strong> gamers or those looking for a reliable base to build upon.</li>
+    <li><strong>Player: One offers</strong> flexibility and room for upgrades, allowing your rig to evolve as your gaming demands grow.</li>
+    <li>With Player: One, you get more than just a gaming PC—you get a platform for growth, exploration, and endless hours of entertainment.</li>
+</ul>
+</div>
+</div>
+
+
+<style>
+    
+
+    .box {
+        background-color: ;
+        padding: 30px;
+        margin: 40px auto;
+        width: 350px ;
+        height:  auto;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        color: purple;
+    }
+
+    .fps-data h3, .specs-data h3 {
+        color: purple;
+        margin-bottom: 15px;
+        text-align: center;
+           
+    }
+
+    .fps-data ul, .specs-data {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+           font-family: 'Arial', sans-serif;
+                   color: #fff;
+           
+    }
+
+    .fps-data li, .specs-data li {
+        margin-bottom: 10px;
+        color: #86868b;
+    }
+
+    .fps-data li strong, .specs-data li strong {
+        color: purple;
+    }
+
+    .resolution-buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .resolution-buttons button {
+        padding: 10px 20px;
+        background-color:#86868b;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .resolution-buttons button:hover {
+        background-color:#161617;
+    }
+</style>
+
+<script>
+    function show1080p() {
+        document.getElementById('fps-1080p').style.display = 'block';
+        document.getElementById('fps-1440p').style.display = 'none';
+    }
+
+    function show1440p() {
+        document.getElementById('fps-1080p').style.display = 'none';
+        document.getElementById('fps-1440p').style.display = 'block';
+    }
+    
+    function showWhite() {
+        document.getElementById('white').style.display = 'block';
+        document.getElementById('black').style.display = 'none';
+    }
+
+    function showBlack() {
+        document.getElementById('white').style.display = 'none';
+        document.getElementById('black').style.display = 'block';
+    }
+</script>
+</body>
+</html>

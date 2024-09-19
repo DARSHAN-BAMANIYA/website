@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+   <link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+<body>
+
+    <div  style="top:0px; position: sticky; display: inline-flex;  ">
+    <div   style="width:1177px; background: ghostwhite;  border-radius: 0px; top: 0px; margin: 0px 0px 0px 0px; 
+padding: 20px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+color: #86868b;
+font-family: 'Arial', sans-serif;
+    ">
+<h1 style="display: inline; margin-right: 600px; padding: 0px;  color: purple;
+ font-family: 'Arial', sans-serif;">TRENDY TEACH</h1>
+<button  style="padding: 10px 20px;
+        background-color:purple;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        margin-left: 1px;
+        "  onclick="document.location='home.html ' ">Home</button>
+<button style="padding: 10px 20px;
+        background-color:purple;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        margin-left: 1px;
+        " onclick="document.location='login.php'">Login</button>
+<button style="padding: 10px 20px;
+        background-color:purple;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        margin-left: 1px;
+        " onclick="document.location='index.php'">Sign up</button>
+</div>
+</div>
+ <div id="content">
+    <img src="https://nzxt.com/assets/cms/34299/1721900215-player-three-prime-ww-07-10-24-hero-white-badge-1.png?ar64=MTox&auto=format&dpr=1.5&fit=crop&h=400&w=400" class="product-image" id="black"> 
+      <img src="https://www.datocms-assets.com/34299/1721900250-player-three-prime-ww-07-10-24-hero-black-badge-1.png?ixlib=js-3.8.0&w=500&h=500&dpr=2&q=50" class="product-image" id="white" style="width:600px; width: 600px;"> 
+  <div class="box">
+        <center><h1 style="color:#161617w ;">H9 Elite Gaming PC</h1></center>
+        <h2>Specifications </h2>
+        <ul class="specs-data">
+            <li><strong>CPU:</strong>Intel® Core™ i9-11900KF</li>
+            <li><strong>GPU:</strong>NVIDIA® GeForce RTX™ 4090 Ti</li>
+            <li><strong>Memory:</strong> 64GB (4 x 16GB) DDR5 5200 MHz</li>
+            <li><strong>Motherboard:</strong> Z790</li>
+            <li><strong>Storage:</strong> 4TB NVMe M.2 SSD</li>
+            <li><strong>PSU:</strong> 1000W Gold</li>
+            <div class="b1">
+            <button onclick="showWhite()" >White</button>
+        <button onclick="showBlack()" >Black</button>
+        </div>
+        </ul>
+        <center class="b1">
+        <button style="background:purple;">$4,649.00</button>
+    </center>
+    </div>
+  </div>
+<div id="flex">
+    <div class="box">
+      <div id="fps-1080p" class="fps-data">
+    <h3>1080p Performance (Based on GPU )</h3>
+    <ul>
+          <li><strong>Cyberpunk 2077:</strong> 160 FPS (Ultra Settings, Ray Tracing ON)</li>
+        <li><strong>Red Dead Redemption 2:</strong> 180 FPS (Ultra Settings)</li>
+        <li><strong>Assassin's Creed Valhalla:</strong> 170 FPS (Ultra Settings)</li>
+        <li><strong>Starfield:</strong> 150 FPS (Ultra Settings)</li>
+        <li><strong>Call of Duty: Modern Warfare II:</strong> 200+ FPS (Ultra Settings)</li>
+        <li><strong>Fortnite:</strong> 240+ FPS (Ultra Settings)</li>
+        <li><strong>Shadow of the Tomb Raider:</strong> 200 FPS (Ultra Settings)</li>
+        <li><strong>GTA V:</strong> 220 FPS (Ultra Settings)</li>
+      
+    </ul>
+</div>
+
+<div id="fps-1440p" class="fps-data" style="display: none;">
+    <h3>1440p Performance (Based on GPU )</h3>
+    <ul> <li><strong>Cyberpunk 2077:</strong> 100 FPS (Ultra Settings, Ray Tracing ON)</li>
+        <li><strong>Red Dead Redemption 2:</strong> 95 FPS (Ultra Settings)</li>
+        <li><strong>Assassin's Creed Valhalla:</strong> 90 FPS (Ultra Settings)</li>
+        <li><strong>Starfield:</strong> 85 FPS (Ultra Settings)</li>
+        <li><strong>Call of Duty: Modern Warfare II:</strong> 120 FPS (Ultra Settings)</li>
+        <li><strong>Fortnite:</strong> 150 FPS (Ultra Settings)</li>
+        <li><strong>Shadow of the Tomb Raider:</strong> 110 FPS (Ultra Settings)</li>
+        <li><strong>GTA V:</strong> 120 FPS (Ultra Settings)</li>
+       
+    </ul>
+</div>
+        <div class="resolution-buttons">
+            <button onclick="show1080p()">1080p Performance</button>
+            <button onclick="show1440p()">1440p Performance</button>
+        </div>
+    </div>
+    <div class="box">
+<ul class="specs-data">
+    <h3>About us</h3>
+    <li><strong> One</strong> is crafted by our gaming PC experts to deliver a seamless and powerful gaming experience right out of the box.</li>
+    <li><strong>Built with high-quality components</strong> it ensures smooth performance in both casual and competitive gaming, giving you a crucial edge over your opponents.</li>
+    <li><strong>Designed not just for immediate power</strong> but also for future-proofing your gaming experience.</li>
+    <li><strong>Perfect for first-time</strong> gamers or those looking for a reliable base to build upon.</li>
+    <li><strong>Player: One offers</strong> flexibility and room for upgrades, allowing your rig to evolve as your gaming demands grow.</li>
+    <li>With Player: One, you get more than just a gaming PC—you get a platform for growth, exploration, and endless hours of entertainment.</li>
+</ul>
+</div>
+</div>
+<script>
+    function show1080p() {
+        document.getElementById('fps-1080p').style.display = 'block';
+        document.getElementById('fps-1440p').style.display = 'none';
+    }
+
+    function show1440p() {
+        document.getElementById('fps-1080p').style.display = 'none';
+        document.getElementById('fps-1440p').style.display = 'block';
+    }
+    
+    function showWhite() {
+        document.getElementById('white').style.display = 'block';
+        document.getElementById('black').style.display = 'none';
+    }
+
+    function showBlack() {
+        document.getElementById('white').style.display = 'none';
+        document.getElementById('black').style.display = 'block';
+    }
+</script>
+</body>
+</html>
